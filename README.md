@@ -1,10 +1,10 @@
-# Knitogami
+# Knit Simulation
 
-Simulation code to support the paper [You Have to Grow Wefts to Fold Them](https://arxiv.org/abs/2408.08409).
+Simulation code to support the paper [Geometric modeling of knitted fabrics](https://www.pnas.org/doi/10.1073/pnas.2416536122), a.k.a. [You Have to Grow Wefts to Fold Them](https://arxiv.org/abs/2408.08409).
 
 ## Compilation
 
-To build, see the original [wiki](https://github.com/wimvanrees/growth_SM2018/wiki) for instructions on how to compile and run. You may need to add extra locations to your PATH variable, e.g.,
+To build, see the original [codebase wiki](https://github.com/wimvanrees/growth_SM2018/wiki) for instructions on how to compile and run. You may need to add extra locations to your PATH variable, e.g.,
 ```
 export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 ```
