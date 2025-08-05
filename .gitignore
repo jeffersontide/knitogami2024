@@ -1,6 +1,6 @@
 # Ignore simulations
-# *.vtp
-# *.pvd
+*.vtp
+*.pvd
 *.pkl
 __pycache__/
 
@@ -36,7 +36,7 @@ bin/*/shell
 # bin/*/
 
 # Ignore data files
-# *.dat
+*.dat
 
 # Ignore Mac specific files
 *.DS_Store
@@ -46,3 +46,6 @@ bin/*/shell
 
 # Appcode shit
 .idea/*
+
+.vscode
+*.log
