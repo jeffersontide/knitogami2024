@@ -5,7 +5,6 @@
 #include "GrowthHelper.hpp"
 #include "ArgumentParser.hpp"
 #include <igl/boundary_loop.h>
-
 #include "Parametrizer.hpp"
 #include "HLBFGS_Wrapper_Parametrized.hpp"
 
@@ -226,7 +225,7 @@ void Sim_Knit::runKnit()
     }
 
     const int n_pulling_steps = parser.parse<int>("-nPullingSteps", 10);
-    const Real pull_total = parser.parse<Real>("-pullAmount", 5.0);
+    const Real pull_total = parser.parse<Real>("-pullAmount", +0.5);
     const Real move_amount = pull_total / (2.0 * n_pulling_steps); //how far to move each boundary per step 
     std::cout << move_amount << " move amount" << std::endl;
 
@@ -297,9 +296,6 @@ void Sim_Knit::runKnit()
                 << ", width: " << width_sample << std::endl;
 
 
-        GrowthHelper<tMesh>::computeBbarsOrthoGrowthViaBbar(
-            mesh, curvatureAngles, s * curvatures_p, s * curvatures_o, bforms
-        );
         addNoiseToVertices_c<2>(0.01 * h);
 
         if (boundarySpringConstant == 0.0) {
