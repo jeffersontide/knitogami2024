@@ -225,7 +225,7 @@ void Sim_Knit::runKnit()
     }
 
     const int n_pulling_steps = parser.parse<int>("-nPullingSteps", 10);
-    const Real pull_total = parser.parse<Real>("-pullAmount", +0.5);
+    const Real pull_total = parser.parse<Real>("-pullAmount", 5);
     const Real move_amount = pull_total / (2.0 * n_pulling_steps); //how far to move each boundary per step 
     std::cout << move_amount << " move amount" << std::endl;
 
