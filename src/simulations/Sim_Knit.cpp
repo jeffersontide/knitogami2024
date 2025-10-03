@@ -168,18 +168,19 @@ void Sim_Knit::runKnit()
     //Set boundary conditions to set vertices on left and right edges 
     auto boundaryConditions = mesh.getBoundaryConditions().getVertexBoundaryConditions();
 
-
+    //changed to top and bottom (2 october 2025) 
     for (int i = 0; i < nVertices; ++i) {
-        if (rvertices(i, 0) < rvertices.col(0).minCoeff()+1e-6) { // left edge
+        if (rvertices(i, 1) < rvertices.col(1).minCoeff()+1e-6) { // left edge (bottom)
             boundaryConditions(i,0)=true;
             boundaryConditions(i,1)=true;
             boundaryConditions(i,2)=true;
-        } else if (rvertices(i, 0) > rvertices.col(0).maxCoeff()-1e-6) { // right edge
+        } else if (rvertices(i, 1) > rvertices.col(1).maxCoeff()-1e-6) { // right edge (top) 
             boundaryConditions(i, 0)=true; 
             boundaryConditions(i, 1)=true;
             boundaryConditions(i, 2)=true;
         }
     }
+    //
     
 
     for (int step = 0; step <= nSteps; step++) {
@@ -235,16 +236,16 @@ void Sim_Knit::runKnit()
         const Real s = static_cast<Real>(step2) / n_pulling_steps;
 
     
-        // === compute left/right boundaries at this step ===
+        // === compute left/right boundaries at this step -- changed to top and bottom edges (2 october 2025) ===
         std::vector<int> leftBoundary, rightBoundary;
-        Real xmin = cvertices.col(0).minCoeff();
-        Real xmax = cvertices.col(0).maxCoeff();
+        Real xmin = cvertices.col(1).minCoeff();
+        Real xmax = cvertices.col(1).maxCoeff();
         Real boundary_band=move_amount;
 
         for (int i = 0; i < nVertices; ++i) {
-            if (std::abs(cvertices(i, 0)-xmin) < boundary_band) { 
+            if (std::abs(cvertices(i, 1)-xmin) < boundary_band) { 
                 leftBoundary.push_back(i);
-            } else if (std::abs(cvertices(i, 0)-xmax) < boundary_band) {
+            } else if (std::abs(cvertices(i, 1)-xmax) < boundary_band) {
                 rightBoundary.push_back(i);
             }
         }
@@ -257,43 +258,43 @@ void Sim_Knit::runKnit()
         // === Pull vertices ===
         for (int i : leftBoundary) {
             //rvertices(i, 0) += move_amount;
-            cvertices(i, 0) += move_amount;
+            cvertices(i, 1) += move_amount;
         }
         for (int i : rightBoundary) {
             //rvertices(i, 0) -= move_amount;
-            cvertices(i, 0) -= move_amount;
+            cvertices(i, 1) -= move_amount;
         }
 
         // Step tag
         std::cout << "=== Step" << step2 << " ===" << std::endl;
 
         // Global mesh width
-        Real xmin_global = cvertices.col(0).minCoeff();
-        Real xmax_global = cvertices.col(0).maxCoeff();
+        Real xmin_global = cvertices.col(1).minCoeff();
+        Real xmax_global = cvertices.col(1).maxCoeff();
         Real width_global = xmax_global - xmin_global;
 
         // Boundary averages
         Real left_avg = 0.0, right_avg = 0.0;
-        for (int i : leftBoundary)  left_avg  += cvertices(i, 0);
-        for (int i : rightBoundary) right_avg += cvertices(i, 0);
+        for (int i : leftBoundary)  left_avg  += cvertices(i, 1);
+        for (int i : rightBoundary) right_avg += cvertices(i, 1);
         left_avg  /= leftBoundary.size();
         right_avg /= rightBoundary.size();
         Real width_avg = right_avg - left_avg;
 
         // Individual sample points (optional)
-        Real left_sample = cvertices(leftBoundary[0], 0);
-        Real right_sample = cvertices(rightBoundary[0], 0);
+        Real left_sample = cvertices(leftBoundary[0], 1);
+        Real right_sample = cvertices(rightBoundary[0], 1);
         Real width_sample = right_sample - left_sample;
 
         // Print all comparisons
-        std::cout << "Global  xmin: " << xmin_global << ", xmax: " << xmax_global
-                << ", width: " << width_global << std::endl;
+        std::cout << "Global  ymin: " << xmin_global << ", ymax: " << xmax_global
+                << ", height: " << width_global << std::endl;
 
-        std::cout << "Avg     left: " << left_avg << ", right: " << right_avg
-                << ", width: " << width_avg << std::endl;
+        std::cout << "Avg     bottom: " << left_avg << ", top: " << right_avg
+                << ", height: " << width_avg << std::endl;
 
-        std::cout << "Sample  left: " << left_sample << ", right: " << right_sample
-                << ", width: " << width_sample << std::endl;
+        std::cout << "Sample  bottom: " << left_sample << ", top: " << right_sample
+                << ", height: " << width_sample << std::endl;
 
 
         addNoiseToVertices_c<2>(0.01 * h);
