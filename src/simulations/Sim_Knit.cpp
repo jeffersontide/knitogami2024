@@ -222,7 +222,7 @@ void Sim_Knit::runKnit()
             }
         }
 
-        dump(tag + "_f" + std::to_string(s), "stitchData", stitchData);
+        dump(tag + "_f" + std::to_string(s) + "Y", "stitchData", stitchData);
     }
 
     const int n_pulling_steps = parser.parse<int>("-nPullingSteps", 10);
@@ -308,13 +308,13 @@ void Sim_Knit::runKnit()
             HLBFGS_Methods::HLBFGS_EnergyOp_Parametrized<tMesh, Parametrizer_Knit_Boundary, true> hlbfgs_wrapper(mesh, engOp, parametrizer);
 
             const Real epsMin = std::numeric_limits<Real>::epsilon();
-            hlbfgs_wrapper.minimize(tag + "_diagnostics.dat", epsMin);
+            hlbfgs_wrapper.minimize(tag + "_yPull_diagnostics.dat", epsMin);
             eps = hlbfgs_wrapper.get_lastnorm();
 
             std::vector<std::pair<std::string, Real>> energies;
             engOp.addEnergy(energies);
             currentEnergies = energies;
-            FILE * f = fopen((tag+"_energies.dat").c_str(), "a");
+            FILE * f = fopen((tag+"_yPull_energies.dat").c_str(), "a");
             fprintf(f, "Step %d:\n", step2);
             for (const auto & eng : energies) {
                 fprintf(f, "%s \t\t %10.10e\n", eng.first.c_str(), eng.second);
@@ -356,7 +356,7 @@ void Sim_Knit::runKnit()
                 << ", width: " << width_sample2 << std::endl;
         */
 
-        dump(tag + "_f" + std::to_string(s) + "_pulled", "stitchData", stitchData);
+        dump(tag + "_f" + std::to_string(s) + "_Y_pulled", "stitchData", stitchData);
     }
 }
 
