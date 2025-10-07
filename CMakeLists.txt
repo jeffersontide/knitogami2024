@@ -58,24 +58,14 @@ add_library(libshell SHARED ${SOURCES_LIB} ${HEADERS_LIB})
 target_link_libraries(shell libshell)
 
 include_directories("${SRC_DIR}/libshell/")
-
 # fix in case different compiler is specified (http://stackoverflow.com/questions/29898219/why-does-cmake-ignore-addsystem-header-files-when-cxx-is-defined)
 SET(CMAKE_INCLUDE_SYSTEM_FLAG_CXX "-isystem ")
 
-# IGL
-option(LIBIGL_USE_STATIC_LIBRARY ON)
-find_package(LIBIGL REQUIRED)
-if(NOT LIBIGL_FOUND)
-    download_project(PROJ                 LIBIGL
-                     GIT_REPOSITORY       https://github.com/libigl/libigl.git
-                     GIT_TAG              master
-                     ${UPDATE_DISCONNECTED_IF_AVAILABLE})
-    set(LIBIGL_INCLUDE_DIR "${LIBIGL_SOURCE_DIR}/include")
-    message(STATUS "Downloaded libIGL in: ${LIBIGL_SOURCE_DIR}")
-else()
-    message(STATUS "Found libIGL in: ${LIBIGL_INCLUDE_DIR}")
-endif()
-include_directories(SYSTEM ${LIBIGL_INCLUDE_DIR}) # set to system to suppress deprecated warnings
+# IGL (vendored in external/)
+set(LIBIGL_DIR ${PROJECT_SOURCE_DIR}/external/libigl)
+add_subdirectory(${LIBIGL_DIR} ${CMAKE_BINARY_DIR}/libigl)
+include_directories(SYSTEM ${LIBIGL_DIR}/include)
+
 
 # EIGEN
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)

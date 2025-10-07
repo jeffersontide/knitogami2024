@@ -1,0 +1,14 @@
+# Target labels
+ LIBIGL-download
+# Source files and their labels
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download-complete.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-build.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-configure.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-download.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-install.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-mkdir.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-patch_disconnected.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-test.rule
+/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-update_disconnected.rule

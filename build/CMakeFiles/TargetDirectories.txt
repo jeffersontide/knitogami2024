@@ -1,0 +1,17 @@
+/Users/isabella/knitogami2024/build/CMakeFiles/shell.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/libshell.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/hlbfgs.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/triangle.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/edit_cache.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/rebuild_cache.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/list_install_components.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/install.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/install/local.dir
+/Users/isabella/knitogami2024/build/CMakeFiles/install/strip.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/igl_core.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/edit_cache.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/rebuild_cache.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/list_install_components.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/install.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/install/local.dir
+/Users/isabella/knitogami2024/build/libigl/CMakeFiles/install/strip.dir

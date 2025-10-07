@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/CMakeFiles/LIBIGL-download-complete.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-build.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-configure.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-download.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-install.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-mkdir.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-test.rule"
+		},
+		{
+			"file" : "/Users/isabella/knitogami2024/build_cmake/LIBIGL-download/LIBIGL-download-prefix/src/LIBIGL-download-stamp/LIBIGL-download-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"LIBIGL-download"
+		],
+		"name" : "LIBIGL-download"
+	}
+}

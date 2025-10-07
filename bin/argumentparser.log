@@ -1,0 +1,345 @@
+
+-filename knit_3e_squiggles.txt -verbose true -res 0.100000 -dx 1.400000 -dy 1.200000 
+-filename knit_3a_miura.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 
+-filename patterns/knit_3a_miura.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:patterns/knit_3a_miura_cache.vtp:patterns/knit_3a_miura_f0.000000.vtp>
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3b_chains_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3c_columns_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000.vtp>
+<cache:1:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000.vtp>
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3b_chains_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3c_columns_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3d_peaks_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.000000.vtp>
+<cache:1:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000.vtp>
+<cache:2:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000.vtp>
+<cache:1:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.100000.vtp>
+<cache:1:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.100000.vtp>
+<cache:1:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.100000.vtp>
+<cache:3:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000.vtp>
+<cache:4:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000.vtp>
+<cache:2:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.200000.vtp>
+<cache:5:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000.vtp>
+<cache:2:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.200000.vtp>
+<cache:2:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.200000.vtp>
+<cache:6:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.600000.vtp>
+<cache:7:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.700000.vtp>
+<cache:3:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.300000.vtp>
+<cache:3:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.300000.vtp>
+<cache:8:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.800000.vtp>
+<cache:9:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.900000.vtp>
+<cache:3:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.300000.vtp>
+<cache:4:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.400000.vtp>
+<cache:10:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:4:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.400000.vtp>
+<cache:11:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000_pulled.vtp>
+<cache:12:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000_pulled.vtp>
+<cache:5:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.500000.vtp>
+<cache:5:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.500000.vtp>
+<cache:4:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.400000.vtp>
+<cache:13:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000_pulled.vtp>
+<cache:6:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.600000.vtp>
+<cache:6:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.600000.vtp>
+<cache:14:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000_pulled.vtp>
+<cache:5:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.500000.vtp>
+<cache:15:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000_pulled.vtp>
+<cache:7:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.700000.vtp>
+<cache:7:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.700000.vtp>
+<cache:16:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000_pulled.vtp>
+<cache:8:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.800000.vtp>
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3b_chains_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3c_columns_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3d_peaks_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3e_squiggles_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3f_bars_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.000000.vtp>
+-filename resized_patterns/knit_3g_weave_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.000000.vtp>
+<cache:1:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000.vtp>
+<cache:2:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000.vtp>
+<cache:1:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.100000.vtp>
+<cache:1:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.100000.vtp>
+<cache:3:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000.vtp>
+<cache:1:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.100000.vtp>
+<cache:1:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.100000.vtp>
+<cache:4:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000.vtp>
+<cache:1:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.100000.vtp>
+<cache:1:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.100000.vtp>
+<cache:5:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000.vtp>
+<cache:2:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.200000.vtp>
+<cache:2:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.200000.vtp>
+<cache:2:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.200000.vtp>
+<cache:6:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.600000.vtp>
+<cache:7:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.700000.vtp>
+<cache:2:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.200000.vtp>
+<cache:8:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.800000.vtp>
+<cache:3:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.300000.vtp>
+<cache:2:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.200000.vtp>
+<cache:3:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.300000.vtp>
+<cache:9:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.900000.vtp>
+<cache:3:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.300000.vtp>
+<cache:2:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.200000.vtp>
+<cache:10:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:4:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.400000.vtp>
+<cache:3:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.300000.vtp>
+<cache:11:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000_pulled.vtp>
+<cache:4:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.400000.vtp>
+<cache:4:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.400000.vtp>
+<cache:3:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.300000.vtp>
+<cache:12:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000_pulled.vtp>
+<cache:5:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.500000.vtp>
+<cache:3:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.300000.vtp>
+<cache:13:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000_pulled.vtp>
+<cache:5:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.500000.vtp>
+<cache:4:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.400000.vtp>
+<cache:6:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.600000.vtp>
+<cache:5:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.500000.vtp>
+<cache:14:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000_pulled.vtp>
+<cache:4:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.400000.vtp>
+<cache:7:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.700000.vtp>
+<cache:15:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000_pulled.vtp>
+<cache:6:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.600000.vtp>
+<cache:6:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.600000.vtp>
+<cache:5:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.500000.vtp>
+<cache:4:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.400000.vtp>
+<cache:16:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000_pulled.vtp>
+<cache:8:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.800000.vtp>
+<cache:5:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.500000.vtp>
+<cache:7:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.700000.vtp>
+<cache:7:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.700000.vtp>
+<cache:17:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.600000_pulled.vtp>
+<cache:6:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.600000.vtp>
+<cache:9:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.900000.vtp>
+<cache:8:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.800000.vtp>
+<cache:5:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.500000.vtp>
+<cache:18:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.700000_pulled.vtp>
+<cache:6:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.600000.vtp>
+<cache:8:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.800000.vtp>
+<cache:9:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.900000.vtp>
+<cache:19:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.800000_pulled.vtp>
+<cache:7:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.700000.vtp>
+<cache:9:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.900000.vtp>
+<cache:7:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.700000.vtp>
+<cache:10:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:20:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.900000_pulled.vtp>
+<cache:10:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:6:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.600000.vtp>
+<cache:8:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.800000.vtp>
+<cache:10:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:11:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.000000_pulled.vtp>
+<cache:8:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.800000.vtp>
+<cache:11:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.000000_pulled.vtp>
+<cache:7:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.700000.vtp>
+<cache:9:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.900000.vtp>
+<cache:11:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000_pulled.vtp>
+<cache:12:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.100000_pulled.vtp>
+<cache:9:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.900000.vtp>
+<cache:12:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.100000_pulled.vtp>
+<cache:8:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.800000.vtp>
+<cache:10:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:12:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.100000_pulled.vtp>
+<cache:10:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:13:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.200000_pulled.vtp>
+<cache:11:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000_pulled.vtp>
+<cache:9:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.900000.vtp>
+<cache:13:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.200000_pulled.vtp>
+<cache:13:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.200000_pulled.vtp>
+<cache:11:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.000000_pulled.vtp>
+<cache:14:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.300000_pulled.vtp>
+<cache:10:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f1.000000.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:12:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.100000_pulled.vtp>
+<cache:14:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.300000_pulled.vtp>
+<cache:14:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.300000_pulled.vtp>
+<cache:15:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.400000_pulled.vtp>
+<cache:12:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.100000_pulled.vtp>
+<cache:13:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.200000_pulled.vtp>
+<cache:11:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.000000_pulled.vtp>
+<cache:15:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.400000_pulled.vtp>
+<cache:16:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.500000_pulled.vtp>
+<cache:15:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.400000_pulled.vtp>
+<cache:13:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.200000_pulled.vtp>
+<cache:14:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.300000_pulled.vtp>
+<cache:12:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.100000_pulled.vtp>
+<cache:16:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.500000_pulled.vtp>
+<cache:16:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.500000_pulled.vtp>
+<cache:17:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.600000_pulled.vtp>
+<cache:14:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.300000_pulled.vtp>
+<cache:15:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.400000_pulled.vtp>
+<cache:13:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.200000_pulled.vtp>
+<cache:17:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.600000_pulled.vtp>
+<cache:17:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.600000_pulled.vtp>
+<cache:18:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.700000_pulled.vtp>
+<cache:16:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.500000_pulled.vtp>
+<cache:15:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.400000_pulled.vtp>
+<cache:18:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.700000_pulled.vtp>
+<cache:19:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.800000_pulled.vtp>
+<cache:14:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.300000_pulled.vtp>
+<cache:18:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.700000_pulled.vtp>
+<cache:17:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.600000_pulled.vtp>
+<cache:20:resized_patterns/knit_3d_peaks_peaksized_cache.vtp:resized_patterns/knit_3d_peaks_peaksized_f0.900000_pulled.vtp>
+<cache:16:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.500000_pulled.vtp>
+<cache:19:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.800000_pulled.vtp>
+<cache:19:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.800000_pulled.vtp>
+<cache:15:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.400000_pulled.vtp>
+<cache:18:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.700000_pulled.vtp>
+<cache:20:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.900000_pulled.vtp>
+<cache:17:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.600000_pulled.vtp>
+<cache:19:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.800000_pulled.vtp>
+<cache:20:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.900000_pulled.vtp>
+<cache:16:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.500000_pulled.vtp>
+<cache:20:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.900000_pulled.vtp>
+<cache:18:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.700000_pulled.vtp>
+<cache:17:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.600000_pulled.vtp>
+<cache:19:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.800000_pulled.vtp>
+<cache:18:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.700000_pulled.vtp>
+<cache:20:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.900000_pulled.vtp>
+<cache:19:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.800000_pulled.vtp>
+<cache:20:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.900000_pulled.vtp>
+-filename resized_patterns/knit_3a_miura_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000Y.vtp>
+-filename resized_patterns/knit_3b_chains_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000Y.vtp>
+-filename resized_patterns/knit_3c_columns_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000Y.vtp>
+-filename resized_patterns/knit_3e_squiggles_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.000000Y.vtp>
+-filename resized_patterns/knit_3f_bars_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.000000Y.vtp>
+-filename resized_patterns/knit_3g_weave_peaksized.txt -res 0.5 -verbose true -dx 1.400000 -dy 1.200000 -E 1.000000 -nu 0.400000 -h 0.500000 -boundarySpringConstant 0.000000 -xCurv -1.000000 -yCurv 1.000000 -nSteps 10 
+<cache:0:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.000000Y.vtp>
+<cache:1:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.100000Y.vtp>
+<cache:1:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.100000Y.vtp>
+<cache:1:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.100000Y.vtp>
+<cache:1:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.100000Y.vtp>
+<cache:1:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.100000Y.vtp>
+<cache:2:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.200000Y.vtp>
+<cache:2:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.200000Y.vtp>
+<cache:2:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.200000Y.vtp>
+<cache:1:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000Y.vtp>
+<cache:2:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.200000Y.vtp>
+<cache:3:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.300000Y.vtp>
+<cache:3:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.300000Y.vtp>
+<cache:3:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.300000Y.vtp>
+<cache:2:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.200000Y.vtp>
+<cache:3:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.300000Y.vtp>
+<cache:4:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.400000Y.vtp>
+<cache:4:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.400000Y.vtp>
+<cache:4:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.400000Y.vtp>
+<cache:4:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.400000Y.vtp>
+<cache:2:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000Y.vtp>
+<cache:5:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.500000Y.vtp>
+<cache:3:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.300000Y.vtp>
+<cache:5:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.500000Y.vtp>
+<cache:5:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.500000Y.vtp>
+<cache:5:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.500000Y.vtp>
+<cache:6:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.600000Y.vtp>
+<cache:6:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.600000Y.vtp>
+<cache:6:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.600000Y.vtp>
+<cache:4:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.400000Y.vtp>
+<cache:6:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.600000Y.vtp>
+<cache:7:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.700000Y.vtp>
+<cache:3:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000Y.vtp>
+<cache:7:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.700000Y.vtp>
+<cache:7:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.700000Y.vtp>
+<cache:7:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.700000Y.vtp>
+<cache:8:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.800000Y.vtp>
+<cache:5:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.500000Y.vtp>
+<cache:8:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.800000Y.vtp>
+<cache:8:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.800000Y.vtp>
+<cache:8:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.800000Y.vtp>
+<cache:9:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.900000Y.vtp>
+<cache:4:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000Y.vtp>
+<cache:9:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.900000Y.vtp>
+<cache:6:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.600000Y.vtp>
+<cache:9:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.900000Y.vtp>
+<cache:9:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.900000Y.vtp>
+<cache:10:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:10:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:10:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:11:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.000000_Y_pulled.vtp>
+<cache:10:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:5:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000Y.vtp>
+<cache:7:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.700000Y.vtp>
+<cache:11:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.000000_Y_pulled.vtp>
+<cache:11:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.000000_Y_pulled.vtp>
+<cache:11:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.000000_Y_pulled.vtp>
+<cache:8:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.800000Y.vtp>
+<cache:12:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.100000_Y_pulled.vtp>
+<cache:6:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.600000Y.vtp>
+<cache:12:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.100000_Y_pulled.vtp>
+<cache:12:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.100000_Y_pulled.vtp>
+<cache:12:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.100000_Y_pulled.vtp>
+<cache:9:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.900000Y.vtp>
+<cache:7:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.700000Y.vtp>
+<cache:13:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.200000_Y_pulled.vtp>
+<cache:13:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.200000_Y_pulled.vtp>
+<cache:13:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.200000_Y_pulled.vtp>
+<cache:10:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:13:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.200000_Y_pulled.vtp>
+<cache:8:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.800000Y.vtp>
+<cache:14:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.300000_Y_pulled.vtp>
+<cache:14:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.300000_Y_pulled.vtp>
+<cache:14:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.300000_Y_pulled.vtp>
+<cache:11:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.000000_Y_pulled.vtp>
+<cache:9:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.900000Y.vtp>
+<cache:14:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.300000_Y_pulled.vtp>
+<cache:10:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f1.000000Y.vtp>-nPullingSteps 10 -pullAmount 5.000000 
+<cache:15:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.400000_Y_pulled.vtp>
+<cache:15:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.400000_Y_pulled.vtp>
+<cache:12:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.100000_Y_pulled.vtp>
+<cache:15:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.400000_Y_pulled.vtp>
+<cache:15:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.400000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.500000_Y_pulled.vtp>
+<cache:11:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.000000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.500000_Y_pulled.vtp>
+<cache:13:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.200000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.500000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.500000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.600000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.600000_Y_pulled.vtp>
+<cache:14:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.300000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.600000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.600000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.700000_Y_pulled.vtp>
+<cache:12:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.100000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.700000_Y_pulled.vtp>
+<cache:15:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.400000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.700000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.800000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.700000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.800000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.500000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3c_columns_peaksized_cache.vtp:resized_patterns/knit_3c_columns_peaksized_f0.900000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.800000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.800000_Y_pulled.vtp>
+<cache:13:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.200000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.600000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3e_squiggles_peaksized_cache.vtp:resized_patterns/knit_3e_squiggles_peaksized_f0.900000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3g_weave_peaksized_cache.vtp:resized_patterns/knit_3g_weave_peaksized_f0.900000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3f_bars_peaksized_cache.vtp:resized_patterns/knit_3f_bars_peaksized_f0.900000_Y_pulled.vtp>
+<cache:14:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.300000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.700000_Y_pulled.vtp>
+<cache:15:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.400000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.800000_Y_pulled.vtp>
+<cache:16:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.500000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3b_chains_peaksized_cache.vtp:resized_patterns/knit_3b_chains_peaksized_f0.900000_Y_pulled.vtp>
+<cache:17:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.600000_Y_pulled.vtp>
+<cache:18:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.700000_Y_pulled.vtp>
+<cache:19:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.800000_Y_pulled.vtp>
+<cache:20:resized_patterns/knit_3a_miura_peaksized_cache.vtp:resized_patterns/knit_3a_miura_peaksized_f0.900000_Y_pulled.vtp>
